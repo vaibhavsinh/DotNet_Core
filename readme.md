@@ -18,4 +18,9 @@ Common Built-in Middleware:
 9. What is the Difference Between First(), FirstOrDefault(), Single(), and SingleOrDefault()?
 10. What is the Difference Between Select() and SelectMany()?
 11. What is the Difference Between Any() and All()?
+12. ResponseCache Vs OutputCache? 
+*   ResponseCacheAttribute:
+    To manipulate response headers and enable the clients/proxies to store content on client side;
+*   OutputCache:
+    To store responses on server side and increase throuthput when responses are cached.
       
